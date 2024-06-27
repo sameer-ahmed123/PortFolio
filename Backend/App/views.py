@@ -68,7 +68,7 @@ def create_contact(request):
     if serializer.is_valid():
         serializer.save()
         # move the sending of emails to background task , like celery
-        # mail_send(email, name)
+        mail_send(email, name)
         # (WITHOUT CELERY AVG TIME TO SEND MAIL = 3.8s )
         # i want to send mail from sameerahmedjan00@gmail.com TO the email i recive in the contact submition
         return Response(serializer.data, status=status.HTTP_201_CREATED)

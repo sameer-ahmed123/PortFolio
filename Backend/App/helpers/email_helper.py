@@ -21,4 +21,5 @@ def mail_send(email, name=""):
     recipient_list = [email]
     fail_silently = False
     
+    print("sending mail")
     send_mail(subject, message, from_email, recipient_list, fail_silently)
