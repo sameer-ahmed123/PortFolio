@@ -1,3 +1,4 @@
 Backend/.env
 Backend/db.sqlite3
 venv/
+Frontend/Portfolio_site/node_modules
