@@ -8,7 +8,8 @@ def mail_send(email, name=""):
 
     Thank you for reaching out to us through our portfolio website. We appreciate you taking the time to contact us.
 
-    This is a quick confirmation that we have received your message, and we will get back to you as soon as possible. If your inquiry is urgent, please feel free to reach out to us directly via our contact number or social media channels.
+    This is a quick confirmation that we have received your message, and we will get back to you as soon as possible.
+    If your inquiry is urgent, please feel free to reach out to us directly via our contact number or social media channels.
 
     Best regards,
     Sameer Ahmed
