@@ -11,6 +11,7 @@ def mail_send(email, name=""):
     This is a quick confirmation that we have received your message, and we will get back to you as soon as possible.
     If your inquiry is urgent, please feel free to reach out to us directly via our contact number or social media channels.
 
+
     Best regards,
     Sameer Ahmed
     Portfolio Team
